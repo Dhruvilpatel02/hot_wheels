@@ -26,11 +26,7 @@ class GeminiAPIManager:
     def __init__(self):
         # Directly integrated API keys
         self.api_keys = [
-            "AIzaSyBI6ZrFncJ7V7ezsyNBdn9N8Q1RFTdDlS4",
-            "AIzaSyDLKQEgbVETZSFptZwlFoLbUg_DEFUlnjs",
-            "AIzaSyAFQCIi1KnuMuBjCD8VVZ9q5kEX14EuEP8",
-            "AIzaSyAQbJYBKpCKZrFvKkirjotdBMbpN6ZNzJg",
-            "AIzaSyB31lni3hnZ9f__CC4EK1RDG8KCLS_YJXo"
+            #Add api key here 
         ]
         self.current_key_index = 0
         self.failed_keys = set()
